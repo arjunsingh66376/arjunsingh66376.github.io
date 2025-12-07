@@ -1,0 +1,237 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+       background-image: url('images/chatgpt.png');
+        background-repeat: no-repeat; 
+         background-size: cover; 
+         background-position: center center; 
+    }
+
+
+    .profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: block;
+  margin: 0 auto 20px;
+}
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-top: 60px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p.subtitle {
+      font-size: 18px;
+      opacity: 0.8;
+      margin-bottom: 30px;
+    }
+
+    .btn-group {
+      margin-top: 20px;
+    }
+
+    .btn {
+      background: #ffffff;
+      color: #000000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+    }
+    .btn:hover {
+  box-shadow: 0 0 12px red, 0 0 24px red;
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+}
+
+.btn.secondary:hover {
+  box-shadow: 0 0 12px red, 0 0 24px red;
+  border-color: red;
+  color: red;
+  transition: 0.3s ease-in-out;
+}
+
+
+    .projects {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .project-card {
+      background: #1e1e1e;
+      padding: 25px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.05);
+    }
+
+    .project-card {
+  transition: 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 18px red;
+  transform: scale(1.02);
+}
+
+
+    .skill-item:hover{
+      box-shadow: 0 0 12px red, 0 0 24px red;
+  border-color: red;
+  color: red;
+  transition: 0.3s ease-in-out;
+    }
+
+
+
+    .project-card h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      opacity: 0.85;
+      margin-bottom: 18px;
+    }
+
+    
+    
+   .view-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.view-btn:hover {
+  background: #ff1f1f;
+}
+ 
+    .tech {
+      font-size: 14px;
+      opacity: 0.7;
+      margin-bottom: 10px;
+    }
+
+    .skills, .contact, .about {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .skill-item {
+      background: #1e1e1e;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    .contact-links a {
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px;
+      font-size: 18px;
+      padding: 8px 14px;
+      border: 1px solid #ffffff;
+      border-radius: 8px;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      background: #ffffff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .contact-links a {
+  transition: 0.3s ease-in-out;
+}
+
+.contact-links a:hover {
+  border-color: red;
+  color: red;
+  box-shadow: 0 0 12px red;
+}
+
+.footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
